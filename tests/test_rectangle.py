@@ -34,3 +34,6 @@ class RectangleTestCase(unittest.TestCase):
 
     def test_perimeter_large_sides(self):
         self.assertEqual(rectangle.perimeter(1_000_000, 2_000_000), 6_000_000)
+
+    def test_wrong_test2(self):
+        self.assertEqual(rectangle.perimeter(100, 200), 1000)

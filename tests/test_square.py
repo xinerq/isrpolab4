@@ -34,3 +34,6 @@ class SquareTestCase(unittest.TestCase):
 
     def test_perimeter_large_side(self):
         self.assertEqual(square.perimeter(100_000), 400_000)
+
+    def test_wrong_test(self):
+        self.assertEqual(square.perimeter(100), 200)

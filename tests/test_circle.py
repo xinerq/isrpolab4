@@ -29,3 +29,6 @@ class CircleTestCase(unittest.TestCase):
 
     def test_perimeter_large_radius(self):
         self.assertAlmostEqual(circle.perimeter(1000), 2000 * math.pi)
+        
+    def test_wrong_test3(self):
+        self.assertAlmostEqual(circle.perimeter(1000), 1000);
